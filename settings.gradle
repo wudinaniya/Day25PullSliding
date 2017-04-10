@@ -1,0 +1,4 @@
+include ':app', ':swiperefresh', ':test', ':slidingmenu', ':drawerlayout'
+include ':pullToRefreshLibrary'
+
+include ':SlidingMenuLibrary'

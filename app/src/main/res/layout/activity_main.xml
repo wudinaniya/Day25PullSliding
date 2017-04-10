@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ad.dell.day25pullsliding.MainActivity">
+
+
+    <!--自定义的控件
+    它有自己的属性, 它自己的属性不能调用 android:xxx
+    自定义的属性需要导入命名空间-->
+    <!--ptr:ptrAnimationStyle="flip" flip 翻转
+    ptr:ptrMode="pullDownFromTop" 顶部下拉刷新模式  也可以选both等
+    ptr:ptrAnimationStyle="rotate" 系统会进行判断,当我们设置的ptrDrawable本身
+    已经是一个帧动画的时候,则设置rotate无效,它会使用我们自己的帧动画
+    当我们设置的ptrDrawable本身不是一个帧动画,而是一张普通的图片的时候,
+    设置ptr:ptrAnimationStyle为rotate就会有效果,底层rotate是一个补间动画
+    -->
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/pullLv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ptr:ptrHeaderTextColor="#f00"
+        ptr:ptrMode="pullDownFromTop"
+        ptr:ptrDrawable="@drawable/loading"
+        ptr:ptrAnimationStyle="rotate"
+        ptr:ptrShowIndicator="true"
+        ptr:ptrHeaderBackground="#0f0"
+        />
+</RelativeLayout>

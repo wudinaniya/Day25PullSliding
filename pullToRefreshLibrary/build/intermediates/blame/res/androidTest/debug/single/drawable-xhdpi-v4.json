@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "G:\\androidstudio_workspace\\Day25PullSliding\\pullToRefreshLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\indicator_arrow.png",
+        "source": "G:\\androidstudio_workspace\\Day25PullSliding\\pullToRefreshLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\indicator_arrow.png"
+    },
+    {
+        "merged": "G:\\androidstudio_workspace\\Day25PullSliding\\pullToRefreshLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\default_ptr_rotate.png",
+        "source": "G:\\androidstudio_workspace\\Day25PullSliding\\pullToRefreshLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "G:\\androidstudio_workspace\\Day25PullSliding\\pullToRefreshLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\default_ptr_flip.png",
+        "source": "G:\\androidstudio_workspace\\Day25PullSliding\\pullToRefreshLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\default_ptr_flip.png"
+    }
+]
